@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almacén - Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="logo.png" alt="Logo de la empresa">
+            </a>
+            <h1>Nombre de la Empresa</h1>
+        </div>
+    </header>
+    <nav id="menu">
+        <div class="seccion-wrapper">
+            <div class="seccion verde" onclick="navigateTo('ferreteria.html')">
+                <h2>Ferretería</h2>
+                <p>Actualizado</p>
+            </div>
+            <div class="seccion naranja" onclick="navigateTo('hogar.html')">
+                <h2>Hogar</h2>
+                <p>Sincronizando...</p>
+            </div>
+        </div>
+        <div class="seccion-wrapper">
+            <div class="seccion rojo" onclick="navigateTo('electronica.html')">
+                <h2>Electrónica</h2>
+                <p>Desincronizado</p>
+            </div>
+            <div class="seccion verde" onclick="navigateTo('jardineria.html')">
+                <h2>Jardinería</h2>
+                <p>Actualizado</p>
+            </div>
+        </div>
+    </nav>
+    <footer>
+        <div class="contacto-footer">
+            <a href="contacto.html">Contáctanos</a>
+        </div>
+        <div class="datos-comunes">
+            <p>Dirección: Dirección de la empresa</p>
+            <p>Teléfono: 123456789</p>
+            <p>Email: info@empresa.com</p>
+        </div>
+    </footer>
+</body>
+</html>
