@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-maven-pro: "Maven Pro";
+  --font-marvel: Marvel;
+
+  /* font sizes */
+  --font-size-mid-8: 17.8px;
+  --font-size-5xl: 24px;
+  --font-size-9xl-5: 28.5px;
+  --font-size-11xl: 30px;
+  --font-size-6xl: 25px;
+  --font-size-12xl-1: 31.1px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: #fffdfd;
+  --color-cornflowerblue-100: #a2b1fd;
+  --color-cornflowerblue-200: #a2b1fc;
+  --color-cornflowerblue-300: #719cf0;
+  --color-cornflowerblue-400: #5782d6;
+  --color-black: #000;
+  --color-snow: #fffbfb;
+  --color-gainsboro-100: #d9d9d9;
+  --color-silver-100: #c6bebe;
+  --color-silver-200: #bcbcbc;
+
+  /* Gaps */
+  --gap-xs-2: 11.2px;
+  --gap-2xs-9: 10.9px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-6xs: 7px;
+  --padding-lgi-6: 19.6px;
+  --padding-7xs-9: 5.9px;
+  --padding-xs: 12px;
+  --padding-14xl: 33px;
+  --padding-10xs-7: 2.7px;
+  --padding-9xs-7: 3.7px;
+  --padding-7xs-6: 5.6px;
+  --padding-1019xl-6: 1038.6px;
+  --padding-6xs-8: 6.8px;
+  --padding-10xs: 3px;
+
+  /* Border radiuses */
+  --br-7xl-7: 26.7px;
+  --br-47xl-3: 66.3px;
+  --br-45xl-4: 64.4px;
+  --br-38xl: 57px;
+}
